@@ -18,11 +18,12 @@ echo "=> Updating system and 'yay' packages..."
 yay -Syyuu --noconfirm
 
 echo "Cloning System Setup..."
-rm -rf ~/.local/share/system-setup
-git clone "https://github.com/saullbrandao/dev-setup.git}" ~/.local/share/dev-setup >/dev/null
+rm -rf ~/.local/share/dev-setup
+git clone "https://github.com/saullbrandao/dev-setup.git" ~/.local/share/dev-setup >/dev/null
+
+echo "Copying configs..."
+source ~/.local/share/dev-setup/config.sh
 
 echo "Installation starting..."
 source ~/.local/share/dev-setup/install.sh
 
-echo "Running update.sh..."
-source ~/.local/share/dev-setup/update.sh
