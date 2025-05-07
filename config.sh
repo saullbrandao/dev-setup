@@ -2,7 +2,7 @@
 
 set -e
 
-CONFIGS_DIR="./configs"
+CONFIGS_DIR="$BASE_DIR/configs"
 HOME_CONFIG_DIR="$HOME/.config"
 
 # Copy individual files to home directory
