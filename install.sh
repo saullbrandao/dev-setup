@@ -4,6 +4,8 @@ set -e
 
 INSTALL_DIR="$HOME/.local/share/dev-setup/install"
 
+echo "Executing install script..."
+
 # Check if a specific script name is provided
 if [ $# -eq 1 ]; then
   script_name="$1"

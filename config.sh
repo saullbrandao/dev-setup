@@ -2,8 +2,10 @@
 
 set -e
 
-CONFIGS_DIR="$BASE_DIR/configs"
+CONFIGS_DIR="$HOME/.local/share/dev-setup/configs"
 HOME_CONFIG_DIR="$HOME/.config"
+
+echo "Copying configs..."
 
 # Copy individual files to home directory
 for file in "$CONFIGS_DIR"/*; do

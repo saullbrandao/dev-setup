@@ -28,10 +28,8 @@ cd $BASE_DIR
 #Change to use ssh
 git remote set-url origin git@github.com:saullbrandao/dev-setup.git
 
-echo "Copying configs..."
 source "config.sh"
 
-echo "Installation starting..."
 source "install.sh"
 
 cd $HOME
