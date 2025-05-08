@@ -2,7 +2,7 @@
 
 set -e
 
-INSTALL_DIR="$BASE_DIR/install"
+INSTALL_DIR="$HOME/.local/share/dev-setup/install"
 
 # Check if a specific script name is provided
 if [ $# -eq 1 ]; then
