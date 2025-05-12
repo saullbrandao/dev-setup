@@ -1,15 +1,15 @@
 * {
-	font-family: Inter Display Medium, JetbrainsMono Nerd Font;
+	font-family: Inter Display, JetbrainsMono Nerd Font;
 	font-size: 15px;
+	font-weight: bold;
 	padding-right: 2px;
 	padding-left: 2px;
 	padding-bottom: 0px;
 }
 
 #waybar {
-	background-color: #101010;
+	background-color: #1f2335;
 	color: #c6d0f5;
-	opacity: 0.85;
 }
 
 #workspaces {
@@ -24,8 +24,7 @@
 }
 
 #workspaces button.active {
-	color: #99d1db;
-	background-color: #8caaee;
+	background-color: #414868;
 	border-radius: 5px;
 }
 
@@ -45,13 +44,12 @@
 }
 
 #clock {
-	color: #8caaee;
 	border-radius: 5px;
 	margin-right: 1rem;
 }
 
 #pulseaudio {
-	color: #ea999c;
+	color: #ff757f;
 	border-radius: 5px 0px 0px 5%;
 	margin-left: 1rem;
 }
