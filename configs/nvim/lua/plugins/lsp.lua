@@ -192,10 +192,10 @@ return {
 				--
 				-- But for many setups, the LSP (`ts_ls`) will work just fine
 				-- ts_ls = {},
-
-				-- Golang
+				cssls = {},
+				hyprls = {},
+				jsonls = {},
 				gopls = {},
-				-- Lua
 				lua_ls = {
 					-- cmd = { ... },
 					-- filetypes = { ... },
@@ -210,7 +210,6 @@ return {
 						},
 					},
 				},
-				-- vue
 				volar = {
 					init_options = {
 						vue = {
