@@ -1,1 +1,1 @@
-yay -S eza ripgrep fastfetch tldr --needed --noconfirm
+yay -S fish eza openssh ripgrep fastfetch tldr github-cli starship neovim --needed --noconfirm
