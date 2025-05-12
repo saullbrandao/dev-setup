@@ -1,1 +1,1 @@
-yay -S --needed --noconfirm nwg-look hyprpolkitagent hyprpaper
+yay -S --needed --noconfirm nwg-look hyprpolkitagent hyprpaper waybar pavucontrol
