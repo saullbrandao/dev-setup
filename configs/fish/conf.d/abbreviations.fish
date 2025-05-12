@@ -17,5 +17,5 @@ abbr -a art 'php artisan'
 
 # System Setup
 abbr -a dev 'cd ~/.local/share/dev-setup/'
-abbr -a devu 'sh ~/.local/share/dev-setup/update.sh'
+abbr -a devc 'sh ~/.local/share/dev-setup/config.sh'
 abbr -a devi 'sh ~/.local/share/dev-setup/install.sh'
