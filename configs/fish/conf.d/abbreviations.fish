@@ -7,10 +7,13 @@ abbr -a gc 'git commit'
 abbr -a gcm 'git commit -m'
 abbr -a gcam 'git commit -a -m'
 abbr -a gd 'git diff'
+abbr -a gf 'git fetch'
 abbr -a gp 'git push'
+abbr -a gl 'git pull'
 abbr -a gst 'git status'
 abbr -a gco 'git checkout'
 abbr -a gcb 'git checkout -b'
+abbr -a glog 'git log --oneline --decorate'
 
 # Php Artisan
 abbr -a art 'php artisan'
