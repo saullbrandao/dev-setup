@@ -21,10 +21,6 @@
 		"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
 		"format": "{:%a, %d/%m %H:%M}"
 	},
-	"network": {
-		"format-ethernet": "✓",
-		"format-disconnected": "⚠"
-	},
 	"pulseaudio": {
 		"scroll-step": 5, // %, can be a float
 		"format": "{volume}% {icon}",
