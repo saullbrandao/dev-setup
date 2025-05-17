@@ -85,5 +85,22 @@ return {
 			end,
 			desc = "LSP Workspace Symbols",
 		},
+		{
+			"<leader>ca",
+			vim.lsp.buf.code_action,
+			desc = "Code action",
+		},
+		{
+			"<leader>cr",
+			vim.lsp.buf.rename,
+			desc = "Rename",
+		},
+		{
+			"<leader>cR",
+			function()
+				require("snacks").rename.rename_file()
+			end,
+			desc = "Rename file",
+		},
 	},
 }
