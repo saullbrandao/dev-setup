@@ -43,3 +43,6 @@ vim.keymap.set("n", "<leader>qq", "<cmd>qa<cr>", { desc = "Quit All" })
 -- Reselect visual selection after indenting.
 vim.keymap.set("v", "<", "<gv")
 vim.keymap.set("v", ">", ">gv")
+
+-- Unmap entire <Ctrl-w> prefix
+vim.keymap.set("n", "<C-w>", "<Nop>", { noremap = true })
