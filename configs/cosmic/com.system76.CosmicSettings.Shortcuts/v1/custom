@@ -1,0 +1,73 @@
+{
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "w",
+    ): Disable,
+    (
+        modifiers: [
+            Alt,
+        ],
+        key: "Tab",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "f",
+    ): Disable,
+    (
+        modifiers: [
+            Alt,
+            Shift,
+        ],
+        key: "Tab",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "Return",
+    ): System(Terminal),
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "d",
+    ): System(Launcher),
+    (
+        modifiers: [
+            Super,
+            Shift,
+        ],
+        key: "Tab",
+    ): Disable,
+    (
+        modifiers: [],
+        key: "Print",
+    ): Spawn("XDG_CURRENT_DESKTOP=sway flameshot gui --raw | wl-copy"),
+    (
+        modifiers: [
+            Shift,
+        ],
+        key: "Print",
+    ): Spawn("XDG_CURRENT_DESKTOP=sway flameshot gui"),
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "e",
+    ): System(HomeFolder),
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "Tab",
+    ): System(WorkspaceOverview),
+}
