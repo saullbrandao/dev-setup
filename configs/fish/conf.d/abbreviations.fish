@@ -14,7 +14,7 @@ abbr -a gst 'git status'
 abbr -a gco 'git checkout'
 abbr -a gcb 'git checkout -b'
 abbr -a glog 'git log --oneline --decorate'
-
+abbr -a glogy 'git log --since='yesterday.midnight' --until='midnight' --all --no-merges --oneline --author=saull@outlook.com'
 # Php Artisan
 abbr -a art 'php artisan'
 
