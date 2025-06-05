@@ -11,3 +11,6 @@ vim.opt.showbreak = "↪"
 vim.opt.breakindent = true
 
 vim.opt.clipboard = ""
+
+-- Use intelephense instead of phpactor.
+vim.g.lazyvim_php_lsp = "intelephense"
