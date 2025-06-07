@@ -24,12 +24,11 @@ return {
 		config = true,
 	},
 	{
-		-- Set Laravel Pint as default formatter
 		"stevearc/conform.nvim",
 		optional = true,
 		opts = {
 			formatters_by_ft = {
-				php = { { "pint", "php_cs_fixer" } },
+				php = { "pint" },
 			},
 		},
 	},
