@@ -14,3 +14,6 @@ vim.opt.clipboard = ""
 
 -- Use intelephense instead of phpactor.
 vim.g.lazyvim_php_lsp = "intelephense"
+
+-- Disable all snacks animations
+vim.g.snacks_animate = false
